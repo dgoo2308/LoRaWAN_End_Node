@@ -265,4 +265,3 @@ int32_t  EnvSensors_Init(void)
 
 /* USER CODE END PrFD */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

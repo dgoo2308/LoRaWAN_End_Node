@@ -117,4 +117,3 @@ extern "C" {
 
 #endif /* __TIMER_H__*/
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

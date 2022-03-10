@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        "lorawan_conf.h": "c"
+    }
+}

@@ -64,4 +64,3 @@ extern "C" {
 
 #endif /*__SYSTIME_H__*/
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

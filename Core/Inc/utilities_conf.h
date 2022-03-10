@@ -159,4 +159,3 @@ extern "C" {
 
 #endif /*__UTILITIES_CONF_H__ */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

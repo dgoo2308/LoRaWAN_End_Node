@@ -104,4 +104,3 @@
 
 #endif /* STM32WLXX_NUCLEO_CONF_H */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

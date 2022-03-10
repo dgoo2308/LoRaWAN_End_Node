@@ -171,4 +171,3 @@ uint32_t TIMER_IF_BkUp_Read_SubSeconds(void);
 
 #endif /* __TIMER_IF_H__ */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

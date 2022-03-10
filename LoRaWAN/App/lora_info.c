@@ -152,5 +152,3 @@ LoraInfo_t *LoraInfo_GetPtr(void)
 /* USER CODE BEGIN PF */
 
 /* USER CODE END PF */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

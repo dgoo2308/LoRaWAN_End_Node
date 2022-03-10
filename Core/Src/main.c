@@ -19,7 +19,9 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "i2c.h"
 #include "app_lorawan.h"
+#include "spi.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -85,6 +87,10 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_LoRaWAN_Init();
+  MX_I2C2_Init();
+  MX_SPI1_Init();
+
+
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -185,4 +191,3 @@ void assert_failed(uint8_t *file, uint32_t line)
 }
 #endif /* USE_FULL_ASSERT */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

@@ -113,4 +113,3 @@ uint32_t GetDevAddr(void);
 
 #endif /* __SYS_APP_H__ */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

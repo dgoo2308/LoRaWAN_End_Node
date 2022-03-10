@@ -40,17 +40,18 @@ extern "C" {
 /* Exported constants --------------------------------------------------------*/
 
 /* LoraWAN application configuration (Mw is configured by lorawan_conf.h) */
-#define ACTIVE_REGION                               LORAMAC_REGION_US915
+#define ACTIVE_REGION                               LORAMAC_REGION_AS923
+
 
 /*!
  * CAYENNE_LPP is myDevices Application server.
  */
-/*#define CAYENNE_LPP*/
+#define CAYENNE_LPP
 
 /*!
  * Defines the application data transmission duty cycle. 10s, value in [ms].
  */
-#define APP_TX_DUTYCYCLE                            10000
+#define APP_TX_DUTYCYCLE                            30000
 
 /*!
  * LoRaWAN User application port
@@ -72,13 +73,13 @@ extern "C" {
 /*!
  * LoRaWAN default confirm state
  */
-#define LORAWAN_DEFAULT_CONFIRMED_MSG_STATE         LORAMAC_HANDLER_UNCONFIRMED_MSG
+#define LORAWAN_DEFAULT_CONFIRMED_MSG_STATE         LORAMAC_HANDLER_CONFIRMED_MSG //LORAMAC_HANDLER_UNCONFIRMED_MSG
 
 /*!
  * LoRaWAN Adaptive Data Rate
  * @note Please note that when ADR is enabled the end-device should be static
  */
-#define LORAWAN_ADR_STATE                           LORAMAC_HANDLER_ADR_ON
+#define LORAWAN_ADR_STATE                            LORAMAC_HANDLER_ADR_ON //LORAMAC_HANDLER_ADR_OFF
 
 /*!
  * LoRaWAN Default data Rate Data Rate
@@ -128,5 +129,3 @@ void LoRaWAN_Init(void);
 #endif
 
 #endif /*__LORA_APP_H__*/
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

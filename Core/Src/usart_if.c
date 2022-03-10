@@ -254,4 +254,3 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart2)
 
 /* USER CODE END PrFD */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

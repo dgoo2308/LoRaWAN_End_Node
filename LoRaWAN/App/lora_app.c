@@ -579,5 +579,3 @@ static void OnMacProcessNotify(void)
 
   /* USER CODE END OnMacProcessNotify_2 */
 }
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

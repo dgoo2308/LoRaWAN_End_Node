@@ -68,12 +68,12 @@
 /*!
  * Indicates if the end-device is to be connected to a private or public network
  */
-#define LORAWAN_PUBLIC_NETWORK                             true
+#define LORAWAN_PUBLIC_NETWORK                             false
 
 /*!
  * Current network ID
  */
-#define LORAWAN_NETWORK_ID                                 ( uint32_t )0
+#define LORAWAN_NETWORK_ID                                 ( uint32_t )1
 
 /* USER CODE BEGIN EC2 */
 

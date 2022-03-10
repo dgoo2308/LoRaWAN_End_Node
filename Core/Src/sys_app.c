@@ -363,4 +363,3 @@ void HAL_Delay(__IO uint32_t Delay)
 
 /* USER CODE END Overload_HAL_weaks */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

@@ -72,5 +72,3 @@ void MX_LoRaWAN_Process(void);
 #endif
 
 #endif /*__APP_LORAWAN_H__*/
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
